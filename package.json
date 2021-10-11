@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "build": "yarn tsc && cp gcp-secret-puller dist/",
     "tsc": "node ./node_modules/.bin/tsc",
     "lint": "node ./node_modules/.bin/eslint \"{src,definitions}/**/*.{js,ts}\"",
     "dev": "ts-node index.ts"
@@ -25,9 +26,9 @@
   },
   "name": "gcp-secret-puller",
   "version": "0.0.1",
-  "main": "dist/index.js",
+  "main": "dist/gcp-secret-puller",
   "bin": {
-    "gcp-secret-puller": "node ."
+    "gcp-secret-puller": "dist/gcp-secret-puller"
   },
   "author": "agix",
   "license": "MIT",
