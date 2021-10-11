@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "isolatedModules": true,
+    "declaration": true,
+    "outDir": "dist/",
+    "typeRoots": ["./src/@types", "./node_modules/@types"]
+  },
+  "include": ["index.ts", "src/**/*.ts"]
+}

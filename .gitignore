@@ -1,0 +1,6 @@
+.env
+node_modules
+.eslint
+*.log
+secrets.yml
+dist/
