@@ -17,6 +17,7 @@ postgresql:
         project: development
         name: postgresql-api-user
         version: 1
+env: develop
 ```
 
 `GCLOUD_ACCESS_TOKEN=$(gcloud auth print-access-token) gcp-secret-puller secrets.yml dotenv`

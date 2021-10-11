@@ -23,6 +23,9 @@ function isSecretsDefinition(
 
 async function extractSecrets(secretsDefinitions: SecretsDefinition) {
   const secrets: Record<string, unknown> = {};
+  if (typeof secretsDefinitions === 'string') {
+    return secretsDefinitions;
+  }
   for (const [secretName, secretDefinition] of Object.entries(
     secretsDefinitions
   )) {
