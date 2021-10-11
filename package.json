@@ -30,5 +30,18 @@
     "gcp-secret-puller": "node ."
   },
   "author": "agix",
-  "license": "MIT"
+  "license": "MIT",
+  "description": "This tool just pull google cloud secret with your current user permissions and convert them to the requested format.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sliteteam/gcp-secret-puller.git"
+  },
+  "keywords": [
+    "gcloud",
+    "secrets"
+  ],
+  "bugs": {
+    "url": "https://github.com/sliteteam/gcp-secret-puller/issues"
+  },
+  "homepage": "https://github.com/sliteteam/gcp-secret-puller#readme"
 }
