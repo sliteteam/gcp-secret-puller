@@ -25,7 +25,7 @@
     "typescript": "^4.0.5"
   },
   "name": "gcp-secret-puller",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/gcp-secret-puller",
   "bin": {
     "gcp-secret-puller": "dist/gcp-secret-puller"
